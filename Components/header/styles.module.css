@@ -17,6 +17,9 @@
   letter-spacing: -1px;
   color: #fafafa;
 }
+.logo span{
+  padding-top: 7px;
+}
 
 .navigationMenu {
   display: flex;
