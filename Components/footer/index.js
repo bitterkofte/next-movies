@@ -1,8 +1,14 @@
+import Link from "next/link";
+import styles from "./styles.module.css";
+
 const Footer = () => {
   return (
-    <div>
-      footer
-    </div>
+    <footer className={styles.footer}>
+      Made with ❤️ by&nbsp;
+      <Link href="https://bitterkofte.vercel.app" target="_blank">
+        Hasan Çelik
+      </Link>
+    </footer>
   );
 }
 
