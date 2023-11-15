@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Skeleton } from "@/components/skeleton";
+import Skeleton from "@/Components/skeleton";
 import styles from "./styles.module.css";
 
 function MoviesSectionLoading() {
@@ -18,4 +18,4 @@ function MoviesSectionLoading() {
   );
 }
 
-export { MoviesSectionLoading };
+export default MoviesSectionLoading;

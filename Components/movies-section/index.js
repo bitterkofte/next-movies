@@ -4,10 +4,11 @@ import Image from "next/image";
 
 import styles from "./styles.module.css";
 
-function MoviesSection({ title, movies }) {
+function MoviesSection({ title, movies, category }) {
   return (
-    <div className={styles.moviesSection}>
-      <h3 className={styles.title}>{title}</h3>
+    // <div className={styles.moviesSection}>
+    <div className={`${styles.moviesSection}  ${category ? styles.category : ""}`}>
+      <h3 className={category ? styles.catTitle : styles.title}>{title}</h3>
       <div className={styles.movies}>
         {movies.map((movie) => (
           <div className={styles.movie} key={movie.id}>

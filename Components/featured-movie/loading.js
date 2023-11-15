@@ -1,9 +1,9 @@
 import React from "react";
-import { Loading } from "@/components/loading";
+import { Loading } from "@/Components/loading";
 
 import styles from "./styles.module.css";
 
-function FeatureMovieLoading() {
+function FeaturedMovieLoading() {
   return (
     <div style={{ height: 278 }} className={styles.movieWrapper}>
       <Loading />
@@ -11,4 +11,4 @@ function FeatureMovieLoading() {
   );
 }
 
-export { FeatureMovieLoading };
+export default FeaturedMovieLoading;
